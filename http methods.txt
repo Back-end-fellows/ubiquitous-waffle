@@ -1,0 +1,15 @@
+The Hypertext Transfer Protocol(HTTP), enables the communication between users and servers. It works as a middle man for requests and responses between a user and the internet server. When a user sends a request to the server, it returns a response to the user and this response has information about the request that the user needs.   
+
+HTTP Methods are a set of request methods that are  used  to indicate the action to be performed for a particular resource. The most commonly used methods are GET, POST, PUT, PATCH, and DELETE.
+
+	1. GET METHOD: GET is used to request data from a specified source. The requests from GET can be cached, and they remain in browser history. They can be bookmarked, they have length restrictions, and they are only used to request data. GET should not be used when dealing with sensitive data.
+	
+    2. POST METHOD: This method is used to send data to a server, to create or update a resource. The data is stored in the request body of the HTTP request. POST requests have no restriction on data length, they are never cached, they cannot be bookmarked, and they do not remain in the data history.
+	
+    3. PUT Method: This is almost similar to the POST method, only difference is PUT methods are idempotent and this means that calling the same PUT method multiple times will produce only one result, while calling POST methods multiple times can create the same resource multiple times.
+	
+    4. PATCH METHOD: This method is used to make partial changes to an existing resource. It is a complete contrast to the PUT method.
+	DELETE METHOD: As the name implies, this request is used to delete request from a server. 
+	
+There are other methods like HEAD, OPTION, CONNECT, and TRACE but the ones explained above are the most used.
+	
